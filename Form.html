@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Form with Text and Email Input</h2>
+    <form action="/submit" method="Post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required  /><br /><br />
+
+        input type="submit" value="submit" />
+        </form>
+        <h2>Select Gender</h2>
+
+         <form action="/submit" method="Post">
+         <label for="male">Male:</label>
+        <input type="radio" id="male" name="gender" value="male"/><br /><br />
+
+       <label for="femail">Email:</label>
+        <input type="radio" id="femail" name="gender" value="female"  /><br /><br />
+
+        <input type="submit" value="Submit">
+         </form>
+
+         <input type="radio" name="gender" value="female"> Female <br>
+        <input type="radio" name="gender" value="male"> Male <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>Terms and Conditions</h2>
+
+    <form action="submit" method="POST">
+        <label>
+            <input type="checkbox" name="terms" required>
+            I agree to the terms and conditions
+        </label>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>Select a Country</h2>
+    <form action="/submit" method="POST">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="USA">USA</option>
+            <option value="India">India</option>
+            <option value="UK">UK</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit" />
+    </form>
+
+<h2>Login Form</h2>
+    <form action="/submit" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" />
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" />
+        <br><br>
+
+        <input type="submit" value="Login" />
+    </form>
+
+</body>
+</html>
